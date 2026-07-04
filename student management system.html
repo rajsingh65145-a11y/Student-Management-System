@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="student management system.css">
+</head>
+<body>
+<div class="header">
+    <h1>Student Management System</h1>
+</div>
+
+
+
+
+<div class="hrs">
+<div class="input">
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="text" id="rollno" placeholder="Enter Roll No">
+</div>
+<br/>
+<div class="marks">
+
+   <label>Maths</label>
+   <input type="number" id="maths" placeholder="Enter Marks">
+
+   <label>Science</label>
+   <input type="number" id="science" placeholder="Enter Marks">
+
+   <label>English</label>
+   <input type="number" id="english" placeholder="Enter Marks">
+
+   <label>Computer</label>
+   <input type="number" id="computer" placeholder="Enter Marks">
+
+   <label>Hindi</label>
+   <input type="number" id="hindi" placeholder="Enter Marks">
+
+</div>
+<br/>
+<div class="btns">
+<button class="addbtn">Add student</button>
+<button class="deletebtn">Delete student</button>
+</div>
+
+<table class="tbl" border="1">
+    <thead>
+        <tr>
+            <th >Name</th>
+            <th>Roll No</th>
+            <th>Total</th>
+            <th>Percentage</th>
+            <th>Grade</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody id="resultTable">
+
+    </tbody>
+</table>
+</div>
+</body>
+<script src="student management system.js"></script>
+</html>
